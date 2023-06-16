@@ -70,29 +70,38 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <path d="M529,251 Q533,261 537,251" fill="none" stroke="#808080" stroke-width="2"/>
-      <rect fill="none" height="108" stroke="#000000" stroke-width="2" width="271" x="400" y="250"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="538" y="309">4-BIT FULL ADDER</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="697" y="313">Cout</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="383" y="316">Cin</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="461" y="242">A3 A2 A1 A0</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="612" y="243">B3 B2 B1 B0</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="533" y="378">S3 S2 S1 S0</text>
-      <circ-port height="8" pin="190,450" width="8" x="396" y="306"/>
-      <circ-port height="10" pin="1420,620" width="10" x="665" y="305"/>
-      <circ-port height="8" pin="400,250" width="8" x="426" y="246"/>
-      <circ-port height="8" pin="430,250" width="8" x="446" y="246"/>
-      <circ-port height="8" pin="460,250" width="8" x="466" y="246"/>
-      <circ-port height="8" pin="490,250" width="8" x="486" y="246"/>
-      <circ-port height="8" pin="640,80" width="8" x="576" y="246"/>
-      <circ-port height="8" pin="730,80" width="8" x="596" y="246"/>
-      <circ-port height="8" pin="820,80" width="8" x="616" y="246"/>
-      <circ-port height="8" pin="920,80" width="8" x="636" y="246"/>
-      <circ-port height="10" pin="680,560" width="10" x="495" y="355"/>
-      <circ-port height="10" pin="710,560" width="10" x="515" y="355"/>
-      <circ-port height="10" pin="740,560" width="10" x="535" y="355"/>
-      <circ-port height="10" pin="770,560" width="10" x="555" y="355"/>
-      <circ-anchor facing="east" height="6" width="6" x="667" y="307"/>
+      <path d="M191,122 Q201,133 205,123" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="273" stroke="#000000" stroke-width="2" width="160" x="130" y="122"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="207" y="374">4-BIT FULL ADDER</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="328" y="176">Cout</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="106" y="355">Cin</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="149" y="164">A3</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="148" y="185">A2</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="149" y="203">A1</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="151" y="225">A0</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="151" y="265">B3</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="150" y="286">B2</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="151" y="305">B1</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="151" y="325">B0</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="272" y="344">S0</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="272" y="313">S1</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="272" y="283">S2</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="272" y="246">S3</text>
+      <circ-port height="8" pin="190,450" width="8" x="126" y="346"/>
+      <circ-port height="10" pin="1420,620" width="10" x="285" y="165"/>
+      <circ-port height="8" pin="400,250" width="8" x="126" y="156"/>
+      <circ-port height="8" pin="430,250" width="8" x="126" y="176"/>
+      <circ-port height="8" pin="460,250" width="8" x="126" y="196"/>
+      <circ-port height="8" pin="490,250" width="8" x="126" y="216"/>
+      <circ-port height="8" pin="640,80" width="8" x="126" y="256"/>
+      <circ-port height="8" pin="730,80" width="8" x="126" y="276"/>
+      <circ-port height="8" pin="820,80" width="8" x="126" y="296"/>
+      <circ-port height="8" pin="920,80" width="8" x="126" y="316"/>
+      <circ-port height="10" pin="680,560" width="10" x="285" y="235"/>
+      <circ-port height="10" pin="710,560" width="10" x="285" y="275"/>
+      <circ-port height="10" pin="740,560" width="10" x="285" y="305"/>
+      <circ-port height="10" pin="770,560" width="10" x="285" y="335"/>
+      <circ-anchor facing="east" height="6" width="6" x="207" y="267"/>
     </appear>
     <wire from="(460,250)" to="(460,320)"/>
     <wire from="(660,620)" to="(1420,620)"/>
@@ -169,39 +178,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1160,380)" to="(1250,380)"/>
     <wire from="(930,380)" to="(1010,380)"/>
     <wire from="(1370,360)" to="(1370,530)"/>
-    <comp lib="7" loc="(1330,360)" name="Full adder"/>
     <comp lib="0" loc="(190,450)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="7" loc="(630,360)" name="Full adder"/>
-    <comp lib="0" loc="(460,250)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(640,80)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="7" loc="(1090,360)" name="Full adder"/>
-    <comp lib="0" loc="(1420,620)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(430,250)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(770,560)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(400,250)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="7" loc="(870,360)" name="Full adder"/>
     <comp lib="0" loc="(490,250)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -210,21 +189,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(920,80)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(820,80)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(680,560)" name="Pin">
+    <comp lib="0" loc="(740,560)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(740,560)" name="Pin">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(460,250)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="7" loc="(870,360)" name="Full adder"/>
+    <comp lib="7" loc="(1090,360)" name="Full adder"/>
+    <comp lib="0" loc="(1420,620)" name="Pin">
+      <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
@@ -232,6 +209,38 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(640,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(820,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(920,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(430,250)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="7" loc="(630,360)" name="Full adder"/>
+    <comp lib="0" loc="(770,560)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(680,560)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="7" loc="(1330,360)" name="Full adder"/>
+    <comp lib="0" loc="(400,250)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
     </comp>
   </circuit>
 </project>
